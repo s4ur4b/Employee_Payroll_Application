@@ -11,9 +11,9 @@ public class Main {
 
 //      employeePayrollService.insertEmployee();
 //        employeePayrollService.updateSalary();
-//        List <Employee> list = employeePayrollService.getAllEmployeeDetails();
-//        for (Employee item: list){
-//            System.out.println(item);
-//        }
+        List <Employee> list = employeePayrollService.getAllEmployeeDetails();
+        for (Employee item: list){
+            System.out.println(item);
+        }
     }
 }
