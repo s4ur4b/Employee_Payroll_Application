@@ -1,5 +1,7 @@
 package com.bl.employeepayroll.model;
 
+import java.time.LocalDate;
+
 public class Employee {
     int id;
     String name;
@@ -16,6 +18,9 @@ public class Employee {
     int netPay;
 
     public Employee() {
+    }
+
+    public Employee(int id , String name , double salary , LocalDate startDate) {
     }
 
     @Override
